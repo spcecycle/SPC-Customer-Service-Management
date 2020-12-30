@@ -1,0 +1,19 @@
+{
+  "name": "spc_customer_service_management",
+  "version": "1.0.0",
+  "description": "a combination of CRM and service management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spcecycle/SPC-Customer-Service-Management.git"
+  },
+  "author": "Shaun Tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spcecycle/SPC-Customer-Service-Management/issues"
+  },
+  "homepage": "https://github.com/spcecycle/SPC-Customer-Service-Management#readme"
+}
