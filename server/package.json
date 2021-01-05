@@ -4,6 +4,8 @@
   "description": "a combination of CRM and SMS",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/spcecycle/SPC-Customer-Service-Management/issues"
   },
-  "homepage": "https://github.com/spcecycle/SPC-Customer-Service-Management#readme"
+  "homepage": "https://github.com/spcecycle/SPC-Customer-Service-Management#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  }
 }
